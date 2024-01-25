@@ -8,10 +8,21 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        productBackground: "url('/assets/images/img-1.jpg')",
       },
+      boxShadow: {
+        card: '0px 0px 15px rgba(0,0,0,0.25)',
+        container: '0px 0px 16px rgba(0,0,0,0.20)',
+      },
+      colors: {
+        white: "#fbfbfb",
+        brown: "#5C3614",
+        pink: "#F7857A"
+      },
+      fontFamily: {
+        ebgaramond: ["var(--font-ebgaramond)"],
+        opensans: ["var(--font-opensans)"],
+      }
     },
   },
   plugins: [],
